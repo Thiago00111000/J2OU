@@ -1,0 +1,19 @@
+body {
+    background-image: url(BH.png);
+    background-size:auto;
+    background-position:initial;
+    background-repeat:no-repeat;
+    color: #ffffff;
+  }
+  
+.Bill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    margin: 0;
+}
+
+audio {
+    width: 300px;
+}

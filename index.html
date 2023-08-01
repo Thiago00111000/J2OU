@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1></h1>
+  <script>
+    // Lista de URLs de imagens de fundo aleatórias
+const imagensAleatorias = [
+  "J2OU.png",
+  "J3OU.png",
+  "J4OU.png",
+  ];
+
+// Função para obter um número aleatório entre 0 e o comprimento da lista de imagens
+function getRandomIndex(max) {
+  return Math.floor(Math.random() * max);
+}
+
+// Função para definir uma imagem de fundo aleatória
+function definirImagemAleatoria() {
+  const randomIndex = getRandomIndex(imagensAleatorias.length);
+  const randomImageUrl = imagensAleatorias[randomIndex];
+  document.body.style.backgroundImage = `url("${randomImageUrl}")`;
+}
+
+// Chamando a função para definir a imagem de fundo aleatória quando a página é carregada
+window.onload = definirImagemAleatoria;
+
+  </script>
+<span class="Bill">
+<audio controls autoplay>
+  <source src="C:\Users\thiag\OneDrive\Área de Trabalho\Canis-lupus\Just The Two Of Us" type="audio/mpeg">
+</audio>
+
+</body>
+</html>
