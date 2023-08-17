@@ -1,8 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-image: url(BH.png);
-    background-size:auto;
-    background-position:initial;
-    background-repeat:no-repeat;
+    background-image: url();
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    padding: 0px 20px;
+    size: 500px;
+    background-repeat:repeat;
     color: #ffffff;
   }
   
@@ -17,3 +25,4 @@ body {
 audio {
     width: 300px;
 }
+
